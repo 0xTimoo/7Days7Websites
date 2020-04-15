@@ -34,7 +34,7 @@ ul {
     justify-content: space-between;
     height: 50px;
     padding: 0 60px 0 0;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .main-nav .logo {
@@ -50,18 +50,28 @@ ul {
     display: inline-block;
     border: 0;
     font-weight: bold;
-    padding: 15px 20px;
+    padding: 10px 40px;
     background: #ffffff;;
     font-size: 15px;
     border-radius: 50px;
 }
 
 header {
-    margin-top: 35px;
+    margin-top: 40px;
+    /* padding-top: 60px; */
 }
 
+/* header button {
+    padding-top: 15px;
+    margin-top: 10px;
+} */
+
 .header-text {
-    font-weight: 600;
+    font-weight: 700;
+}
+
+.header-text p {
+    padding-top: 10px;
 }
 
 header p {
@@ -78,4 +88,9 @@ header button {
     color: #ffffff;
     font-size: 15px;
     border-radius: 50px;
+    margin-top: 25px;
+}
+
+.landing {
+    width: 50%;
 }
